@@ -1,0 +1,14 @@
+.getinline{
+  display:inline-block;
+  font-size: 1.5em;
+}
+
+.fontinc{
+  font-size: 1.2em;
+  color:#89b347;
+}
+
+.navbar
+.navbar-default{
+  height: 3em;
+}

@@ -1,0 +1,21 @@
+<h1 class="text-center">Matches</h1>
+<h4 class="text-center">
+  {{dt | date : 'fullDate'}}
+</h4>
+
+<br><br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6" ng-repeat="x in input.data">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <strong>
+            <a ng-href="#/info/" id="{{x.unique_id}}" ng-click="cricFunction(x.unique_id)">{{x.title}}</a>
+          </strong>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
